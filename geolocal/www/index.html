@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+      
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <title>Pegar Localização</title> 
+    </head>
+    <body>
+        <marquee> <center> <h> calculo de geolocalização</h> </center> </marquee> <br> </br>
+        <label for="latitude">latitude</label><br>
+        <input type="text" id="latitude" value="latitude">  <br></br>
+        
+        <label for="Longitude">longitude</label><br>
+        <input type="text" id="longitude" value="longitude">  <br></br>
+
+        <label for="altitude">altitude</label><br>
+        <input type="text" id="altitude" value="altitude"> <br></br>
+
+        <label for="precisao">precisao</label><br>
+        <input type="text" id="accuracy" value="precisao"> <br></br>
+
+        <label for="altitudeprecisa">Altitude precisa</label><br>
+        <input type="text" id="altitudeaccuracy" value="altitude precisa"> <br></br>
+
+        <label for="heading">cabeçalho</label><br>
+        <input type="text" id="heading" value="cabeçalho"> <br></br>
+        
+        <label for="velocidade">velocidade</label><br>
+        <input type="text" id="speed" value="velocidade"> <br></br>
+
+
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
